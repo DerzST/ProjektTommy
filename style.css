@@ -1,0 +1,42 @@
+@import url('css-reset.css');
+
+html, body {
+    background-color: #111;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+}
+
+.logo {
+  padding-bottom: 50px;
+  text-align: center;
+}  
+   
+nav a {
+  margin: 24px 24px 24px 0;
+  color: gold;
+  text-decoration: none;
+} 
+
+nav a:hover {
+  color: red;
+  transition: color 1s;
+}
+
+.active {
+  margin: 24px 24px 24px 0;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 800px;
+  margin: auto;
+  background-color: black;
+  padding: 12px;
+  height: 100%;
+} 
+
+.news {
+  color: aqua;
+}
